@@ -31,7 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
   greeting:
-    path: c:\Users\Akshaya\StudioProjects\greeting
+    git:
+      url: https://github.com/Akshayar07/greeting.git
 
 
   # The following adds the Cupertino Icons font to your application.

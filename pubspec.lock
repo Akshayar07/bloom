@@ -187,9 +187,11 @@ packages:
   greeting:
     dependency: "direct main"
     description:
-      path: "c:\\Users\\Akshaya\\StudioProjects\\greeting"
-      relative: false
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: d090d26b12490d79d2672645c598ba79f5234dd5
+      url: "https://github.com/Akshayar07/greeting.git"
+    source: git
     version: "0.0.1"
   http:
     dependency: transitive
