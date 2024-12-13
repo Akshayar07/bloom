@@ -1,8 +1,9 @@
 import 'package:bloom/app/app.dart';
 import 'package:bloom/core/app_initializer.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'core/services/notification_service.dart';
+
+///Entry point of the application.
+///This mtd. ensure all necessary initialization complete before the app launching the app UI
 
 void main() async {
   await AppInitializer.initialize();
